@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+   
+    <style>
+      body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+  
+      h1 {
+        text-align: center;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+  
+      .row {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+  
+      #character-select {
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+  
+      #character-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+  
+      .card {
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <div class="container">
+      <h1>Rick and Morty Search</h1>
+  
+      <div class="row">
+        <select id="character-select">
+          <option selected disabled>Sobre quem você quer saber?</option>
+        </select>
+      </div>
+  
+      <div id="character-cards" class="row">
+      </div>
+      
+    </div>
+  
+  </body>
+  </html>
+
+</body>
+</html>
